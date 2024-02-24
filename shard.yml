@@ -1,0 +1,13 @@
+name: escritura_de_datos
+version: 0.1.0
+
+authors:
+  - Emanuel Tavares <tavares2003@tutanota.com>
+
+targets:
+  escritura_de_datos:
+    main: src/escritura_de_datos.cr
+
+crystal: '>= 1.11.1'
+
+license: MIT
