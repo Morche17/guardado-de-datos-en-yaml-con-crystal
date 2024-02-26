@@ -1,27 +1,22 @@
 # escritura_de_datos
 
-TODO: Write a description here
+Este es un pequeño programa que hice para su uso en un proyecto escolar. Hecho en linux. 
+Lo que hace es guardar en un archivo yaml un valor con su llave ejecutando el programa con unos argumentos
 
 ## Installation
 
-TODO: Write installation instructions here
+Se compila con: 
+```c
+crystal build src/escritura_de_datos.cr
+```
+Esto debería crear un binario ejecutable con el mismo nombre.
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/escritura_de_datos/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+```c
+./escritura_de_datos --key llave ---value un texto cualquiera
+```
 
 ## Contributors
 
-- [Emanuel Tavares](https://github.com/your-github-user) - creator and maintainer
+- [Emanuel Tavares](https://github.com/Morche17) - creator and maintainer
